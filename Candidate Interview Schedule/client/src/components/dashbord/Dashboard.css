@@ -1,0 +1,19 @@
+/* src/components/Dashboard.css */
+.outlet-scroll-area {
+  scrollbar-width: thin;
+  scrollbar-color: #999 #eee;
+}
+
+.outlet-scroll-area::-webkit-scrollbar {
+  width: 8px;
+}
+.outlet-scroll-area::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.outlet-scroll-area::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+.outlet-scroll-area::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
